@@ -19,11 +19,11 @@ jobs:
       - name: 'Send mail'
         uses: dawidd6/action-send-mail@master
         with:
-          server_address: smtp.163.com
+          server_address: smtp.yeah.net
           server_port: 465
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
+          username: chungyeungli@yeah.net
+          password: MPx3p77Wts9tLUmZ
           subject: Shanghai Weather Report (${{env.REPORT_DATE}})
           html_body: file://result.html
-          to: yifeng.ruan@gmail.com
+          to: 321451972@qq.com
           from: GitHub Actions
