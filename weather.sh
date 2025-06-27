@@ -11,4 +11,4 @@ curl \
   -H "Accept-Language: $LANGUAGE" \
   -H "User-Agent: $UA" \
   -o result.html \
-  https://wttr.in
+  https://wttr.in/$Anhui?format=4\&$UNIT
